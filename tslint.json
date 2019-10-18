@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-sf-react"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "config/**/*.js",
+            "node_modules/**/*.ts",
+            "coverage/lcov-report/*.js",
+            "./node_modules/**/*.ts",
+            "node_modules/**"
+        ]
+    },
+    "jsRules": {},
+    "rules": {
+        "no-implicit-dependencies": [true, ["@"]],
+        "jsx-wrap-multiline": false,
+        "jsx-no-lambda": [ false ]
+    },
+    "rulesDirectory": []
+}
