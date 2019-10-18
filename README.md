@@ -1,6 +1,4 @@
-# taro-weapp 
-
-# weappTemplate
+# taro-weapp-eslint
 
 微信小程序模版
 
